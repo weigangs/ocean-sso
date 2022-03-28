@@ -13,6 +13,12 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.lkyl.oceanFramework.boot</groupId>
+            <artifactId>oceanboot-starter</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.lkyl</groupId>
             <artifactId>ocean-sso-api</artifactId>
@@ -24,15 +30,25 @@
             <artifactId>ocean-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.lkyl.oceanFramework</groupId>
+            <artifactId>ocean-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lkyl.oceanFramework</groupId>
+            <artifactId>ocean-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <!-- lombok -->
