@@ -1,21 +1,19 @@
 package com.lkyl.ocean.sso.service;
 
 import com.lkyl.oceanframework.boot.annotation.EnableOceanErrorConfig;
-import com.lkyl.oceanframework.mybatis.annotation.EnableOceanDruidConfig;
-import com.lkyl.oceanframework.mybatis.annotation.EnableOceanPageHelper;
+import com.lkyl.oceanframework.mybatis.annotation.EnableOceanDataSource;
 import com.lkyl.oceanframework.security.annotation.EnableOceanAuthorizationServer;
 import com.lkyl.oceanframework.web.annotation.EnableOceanHttpClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 @Slf4j
 @SpringBootApplication
-@EnableOceanPageHelper
-@EnableOceanDruidConfig
+
 @EnableOceanHttpClient
+@EnableOceanDataSource
 @EnableOceanErrorConfig
 @EnableOceanAuthorizationServer
 //@ComponentScan(scan = "com.lkyl.oceanframework.*")
